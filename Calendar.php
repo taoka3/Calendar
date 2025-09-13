@@ -1,7 +1,4 @@
 <?php
-
-use function Psy\debug;
-
 require 'ICalendar.php';
 
 class Calendar implements ICalendar
@@ -92,3 +89,4 @@ class Calendar implements ICalendar
         return ['2025-09-02 11:00:00', '2025-09-02 12:00:00'];
     }
 }
+
